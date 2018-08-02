@@ -48,7 +48,7 @@ typedef enum
 
 #define WdmpError(...)                      cimplog_error(LOGGING_MODULE, __VA_ARGS__)
 #define WdmpInfo(...)                       cimplog_info(LOGGING_MODULE, __VA_ARGS__)
-#define WdmpPrint(...)                      cimplog_debug(LOGGING_MODULE, __VA_ARGS__)
+#define WdmpPrint(...)                      cimplog_info(LOGGING_MODULE, __VA_ARGS__)
 /*----------------------------------------------------------------------------*/
 /*                               Data Structures                              */
 /*----------------------------------------------------------------------------*/
